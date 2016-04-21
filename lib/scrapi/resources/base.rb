@@ -1,5 +1,5 @@
 module Scrapi
   class Base < JsonApiClient::Resource
-    self.site = 'localhost:3000/api/'
+    self.site = 'http://www.lvh.me:3000/api/'
   end
 end
